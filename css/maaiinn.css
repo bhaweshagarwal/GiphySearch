@@ -69,7 +69,7 @@ body {
 /* For Mobile Version - Media Query Is Used */
 
 /* Mobile Styles */
-@media (max-width: 480px) {
+/*@media (max-width: 480px) {
   .container-padding50 {
     padding: 30px;
   }
@@ -83,5 +83,19 @@ body {
     margin-bottom: 15px;
   }
 }
+*/
+  /* Realme C15 Styles */
+@media (max-width: 720px) {
+  .container-padding50 {
+    padding: 40px;
+  }
 
-  
+  .js-container {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  }
+
+  h1 {
+    font-size: 22px;
+    margin-bottom: 18px;
+  }
+}
