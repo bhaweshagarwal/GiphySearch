@@ -85,7 +85,7 @@ body {
 }
 */
   /* Realme C15 Styles */
-@media (max-width: 720px) {
+ /* @media (max-width: 720px) {
   .container-padding50 {
     padding: 40px;
   }
@@ -99,3 +99,26 @@ body {
     margin-bottom: 18px;
   }
 }
+*/ 
+
+/* Realme C15 Styles */
+@media (max-width: 720px) {
+  .container {
+    padding: 10px;
+  }
+
+  .js-container {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 8px;
+  }
+
+  h1 {
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+
+  .js-go {
+    margin-top: 4px;
+  }
+}
+
