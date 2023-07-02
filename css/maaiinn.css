@@ -1,6 +1,6 @@
 /* Mobile Site- Update */
 /* Mobile Styles for Realme C15 */
-@media (max-width: 600px) {
+@media (max-width: 720px) {
   body {
     font-size: 14px;
   }
@@ -11,7 +11,7 @@
   }
 
   .container-padding50 {
-    padding: 30px;
+    padding: 20px;
   }
 
   .js-container {
