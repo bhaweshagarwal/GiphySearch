@@ -65,4 +65,23 @@ body {
     font-size: 24px;
     margin-bottom: 20px;
   }
+
+/* For Mobile Version - Media Query Is Used */
+
+/* Mobile Styles */
+@media (max-width: 480px) {
+  .container-padding50 {
+    padding: 30px;
+  }
+
+  .js-container {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+
+  h1 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+}
+
   
